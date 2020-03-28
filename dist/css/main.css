@@ -211,7 +211,7 @@ img {
 #header-home {
   height: 100vh;
   color: #fff;
-  background: url("/dist/img/showcase.jpg") no-repeat center right/cover; }
+  background: url("/img/showcase.jpg") no-repeat center right/cover; }
   #header-home .header-content {
     padding-top: 20%;
     text-align: center; }
@@ -221,7 +221,7 @@ img {
       text-transform: uppercase; }
 
 #header-inner {
-  background: url("/dist/img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("/img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5rem;
   color: #fff;
   border-bottom: 3px solid #ffbc00; }
