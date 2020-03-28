@@ -1,0 +1,190 @@
+// Tablet
+@media (max-width : 800px){
+    #header {
+        &-home{
+            height: 50vh;
+            .header-content {
+
+                padding-top: 3rem;
+                h1 {
+                        font-size: 3rem;
+                        margin-bottom: 0.5rem;
+                        text-transform: uppercase;
+                        line-height: 3.7rem;
+                }
+            }
+        }
+
+       
+    }
+
+    #work {
+        &-a {
+            .items{
+                margin : 6.5rem 0rem;
+                p{font-size : 1.5rem}
+                h2 {font-size : 1rem;} 
+            }
+        }
+    }
+
+}
+
+//Mobile
+@media (max-width:500px){
+    #header {
+        &-home {
+            height: 100vh;
+            #main-nav{
+                flex-direction: column;
+                ul {
+                    li {padding: 1rem 0.5rem;
+                        font-size: 1rem;}
+                }
+            }
+            .header-content {
+
+                padding-top: 8rem;
+                h1 {
+                        font-size: 1.9rem;
+                        margin-bottom: 0.5rem;
+                        text-transform: uppercase;
+                        line-height: 2rem;
+                }
+        }
+    }
+    &-inner {
+        height: 10rem;
+        #main-nav{
+            flex-direction: column;
+            ul {
+                li {padding: 1rem 0.5rem;
+                    font-size: 1rem;}
+            }
+        }
+    }
+    }
+        #home {
+             &-a {
+                 .specials {
+                     display: grid;
+                     grid-template-columns:1fr;
+                 }
+             }
+
+             &-b {
+                 .stats {
+                     grid-template-columns: 1fr;
+                 }
+             }
+
+             &-c {
+                 .process {
+                     grid-template-columns: 1fr;
+                 }
+             }
+        }
+
+        #about {
+            &-a{
+                .about-info{
+                    grid-template-areas: 
+                    'bio-img' 
+                    'bio' 
+                    'bio'
+                    'aw1'
+                    'aw2' 
+                    'aw3';
+                }
+            }
+
+            &-b{
+                h3{line-height: 1.2;}
+            }
+            &-c{
+                padding: 2rem;
+                .about-logos {
+                    grid-template-columns: 1fr;
+                    justify-items: center;
+                    
+                }
+            }
+
+            &-d{
+                .testimonials{
+                    grid-template-columns: 1fr;
+                }
+            }
+           
+        }
+
+        #work {
+            &-a{
+                .items{
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+
+    #contact{
+        &-a {
+            .text-field{
+                grid-template-areas:
+                'name'
+                'email'
+                'phone'
+                'subject'
+                'message';
+            }
+        }
+
+        &-b{
+            .contact-items{
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+
+        #footer {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+}
+
+//Landscape 
+
+@media(max-height:450px){
+
+    #header {
+        &-home {
+            height: 100vh;
+            .header-content {
+
+                padding-top: 4rem;
+                h1 {
+                    font-size: 2.5rem;
+                    margin-bottom: 0.5rem;
+                    text-transform: uppercase;
+                    line-height: 2rem;
+            }
+            }
+
+        }
+       
+    }
+
+    #about {
+        &-a{
+            .about-info{
+                grid-template-areas: 
+                'bio-img bio-img bio-img' 
+                'bio bio bio' 
+                'aw1 aw2 aw3';
+          
+            }
+        }
+    }
+
+}
